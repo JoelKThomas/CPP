@@ -1,4 +1,4 @@
 Output
 ------
 
-![img](./output.png)
+![img](./output.PNG)
