@@ -34,11 +34,11 @@ void BFS(int a, int b, int target)
         }
   
         // doesn't met jug constraints 
-        if ((u.first > a || u.second > b || 
-            u.first < 0 || u.second < 0)) {
-            cout<<"\nI was here with wrong constraints\n"<<u.first<<", "<<u.second;
-            continue; 
-            }
+        // if ((u.first > a || u.second > b || 
+        //     u.first < 0 || u.second < 0)) {
+        //     cout<<"\nI was here with wrong constraints\n"<<u.first<<", "<<u.second;
+        //     continue; 
+        //     }
   
         // filling the vector for constructing 
         // the solution path 
